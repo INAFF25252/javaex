@@ -13,7 +13,7 @@ while(money > 0){
     console.log(money);
         money--;
 } */
-
+/* 
 const numbsArr=[1,2,3,4,5,6,7,8,9,10]
 function linearSearch(nums, array){
     let found;
@@ -31,4 +31,10 @@ function linearSearch(nums, array){
 console.log(found);
 return found;
 }
-linearSearch(3, numbsArr);
+linearSearch(3, numbsArr); */
+
+const musicTitles = [A,B,C,D,E]
+const push = prompt("Which button you pressing")
+function button(letters, array){
+    for(let b =)
+}
