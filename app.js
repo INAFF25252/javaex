@@ -33,8 +33,36 @@ return found;
 }
 linearSearch(3, numbsArr); */
 
-const musicTitles = [A,B,C,D,E]
+const musicTitles = ["A","B","C","D","E"]
 const push = prompt("Which button you pressing")
-function button(letters, array){
-    for(let b =)
+const second = prompt("How many times fool")
+function button(arr){
+    let number = 1
+    n = second
+    b = push
+    if(b=1){
+        while(number<=n){
+    arr.push(arr[0])
+    arr.shift()
+    console.log(arr)
+    number++
+    }
 }
+if(b=2){
+    while(number<=n){
+arr.push(arr[0])
+arr.unshift()
+console.log(arr)
+number++
+}
+}
+if(b=3){
+    while(number<=n){
+arr.push(arr[0])
+arr.reverse()
+console.log(arr)
+number++
+}
+}
+}
+button(musicTitles);
