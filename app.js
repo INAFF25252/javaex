@@ -38,9 +38,9 @@ const push = prompt("Which button you pressing")
 const second = prompt("How many times fool")
 function button(arr){
     let number = 1
-    n = second
     b = push
-    if(b=1){
+    n = second
+    if(b==="1"){
         while(number<=n){
     arr.push(arr[0])
     arr.shift()
@@ -48,18 +48,17 @@ function button(arr){
     number++
     }
 }
-if(b=2){
+if(b==="2"){
     while(number<=n){
-arr.push(arr[0])
-arr.unshift()
+    arr.unshift(arr[4])
+    arr.pop(arr[5])
 console.log(arr)
 number++
 }
 }
-if(b=3){
+if(b==="3"){
     while(number<=n){
-arr.push(arr[0])
-arr.reverse()
+arr.reverse(arr[0])
 console.log(arr)
 number++
 }
