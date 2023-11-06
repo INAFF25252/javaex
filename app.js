@@ -58,10 +58,13 @@ number++
 }
 if(b==="3"){
     while(number<=n){
-arr.reverse(arr[0])
+arr.reverse(arr[0], arr[1])
 console.log(arr)
 number++
 }
+}
+if(b==="4"){
+console.log(arr)
 }
 }
 button(musicTitles);
